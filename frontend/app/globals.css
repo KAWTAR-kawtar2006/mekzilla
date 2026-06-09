@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-roboto);
+}
+
+:root {
+  --background: #000000;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #000000;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-roboto), Arial, Helvetica, sans-serif;
+}
+
+.font-roboto {
+  font-family: var(--font-roboto);
+}
+/* ========== LOGO ANIMATION ========== */
+.logo {
+  display: flex;
+  align-items: baseline;
+  margin-left: 40px;
+}
+
+.logo-area .letter {
+  opacity: 0;
+  transform: translateX(-10px);
+}
+
+.logo-area:hover .letter-c {
+  animation: letterAppear 0.3s ease forwards;
+}
+
+.logo-area:hover .letter-o {
+  animation: letterAppear 0.3s ease forwards;
+  animation-delay: 0.15s;
+}
+
+.logo-area:hover .letter-d {
+  animation: letterAppear 0.3s ease forwards;
+  animation-delay: 0.3s;
+}
+
+.logo-area:hover .letter-e {
+  animation: letterAppear 0.3s ease forwards;
+  animation-delay: 0.45s;
+}
+
+@keyframes letterAppear {
+  0% {
+    opacity: 0;
+    transform: translateX(-15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* ========== NAVBAR ========== */
+.navbar {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.8rem 1rem;
+  /* transition: all 0.3s ease; */
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 995px) {
+  .navbar {
+    padding: 0.8rem 2rem;
+  }
+}
+
+.link {
+  display: flex;
+  gap: 30px;
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+
+/* diveder services */
+/* globals.css */
+@keyframes shine {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}

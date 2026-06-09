@@ -1,0 +1,102 @@
+{
+  "navbar": {
+    "about": "À propos",
+    "services": "Expertises",
+    "sectors": "Secteurs d’activité",
+    "methodology": "Méthodologie",
+    "contact": "Contactez-nous"
+  },
+  "hero":{
+    "title": "L'IT complexe,",
+    "suiteTitle":"enfin maîtrisée.",
+    "description": "Solutions fiables, sécurisées et évolutives.",
+    "cta": "Parler à un expert",
+    "cta2": "Découvrir notre approche"
+  },
+  "services":{
+    "title1":"Architecture des Systèmes",
+    "description1":"Nous concevons des architectures robustes et évolutives adaptées à vos besoins métiers pour garantir performance, stabilité et évolution continue de vos systèmes digitaux.",
+    "title2":"Cloud & Scalabilité",
+    "description2":"Nous mettons en place des infrastructures cloud modernes, sécurisées et évolutives pour assurer performance, disponibilité et adaptation à la croissance de votre activité.",
+    "title3":"Produits Digitaux sur mesure",    
+    "description3":"Nous développons des applications web et mobiles sur mesure, performantes et centrées utilisateurs pour transformer vos idées en produits digitaux concrets.",
+    "h1":"Secteurs d'activité",
+    "p":"Nous mettons à votre disposition une expertise transversale pour répondre à vos ambitions numériques. De la conception d’applications sur-mesure au pilotage de vos projets digitaux, chaque solution est pensée pour maximiser votre performance, votre agilité et votre innovation métier."
+  }
+  ,"secteurs":{
+    "title1":"Services financiers",
+    "description1":"Nous digitalisons vos services bancaires via des plateformes sécurisées et intuitives pour optimiser efficacement la gestion de vos actifs et vos relations clients.",
+    "title2":"Assurance",
+    "description2":"Nous modernisons vos parcours clients grâce à des solutions agiles, simplifiant la gestion des contrats et l'automatisation fluide du traitement des dossiers assurés.",
+    "title3":"Secteur public",    
+    "description3":"Nous aidons les administrations à digitaliser leurs services pour améliorer l'efficacité des démarches citoyennes et optimiser la gestion des ressources publiques locales.",
+    "title4":"Santé & Life Science",
+    "description4":"Nous créons des applications santé facilitant la coordination des soins, la gestion sécurisée des données patients et l'optimisation des parcours de santé connectée.",
+    "title5":"Retail",
+    "description5":"Nous boostons votre e-commerce par des interfaces innovantes, centrées sur l'expérience utilisateur pour accroître l'engagement client et maximiser vos ventes en ligne.",
+    "title6":"Hôtellerie & Voyage",    
+    "description6":"Nous concevons des outils digitaux sur-mesure pour fluidifier l'expérience voyageurs, de la réservation en ligne jusqu'à la gestion opérationnelle de vos établissements.",
+    "title7":"Automobile",
+    "description7":"Nous digitalisons vos flux techniques et commerciaux avec des solutions robustes pour le suivi après-vente, la gestion des stocks et la relation client.",
+    "title8":"Industrie manufacturière",
+    "description8":"Nous concevons des outils de pilotage industriel pour optimiser vos processus de production, le suivi logistique et la productivité globale de votre usine.",
+    "title9":"Énergie & Utilities",    
+    "description9":"Nous accompagnons votre transition numérique via des plateformes intelligentes, permettant un suivi précis de vos consommations et l'optimisation durable de vos infrastructures."
+
+  },
+  "approach":{
+    "title1p1":"Méthode de travail",
+    "title2p1":"Notre approche agile",
+    "description1p1":"Une méthodologie éprouvée pour livrer vos projets d'applications Web/Mobile, architectures système et cloud, avec rigueur, transparence et itération continue.",
+    "title1":"Idéation & cadrage",
+    "description1":"Analyse des besoins et contraintes pour définir une vision claire, un backlog priorisé et une roadmap validée.",
+    "title2":"Design & Architecture",
+    "description2":"Conception d’une architecture système et cloud robuste, sécurisée et évolutive, avec des choix technologiques adaptés.",
+    "title3":"Développement itératif",
+    "description3":"Développement en sprints courts avec livraisons régulières, intégrant vos retours pour améliorer le produit en continu.",
+    "title4":"Tests & validation",
+    "description4":"Tests des fonctionnalités pour garantir qualité, sécurité et performance, avec validations assurant un déploiement fiable.",
+    "title5":"Déploiement & suivi",
+    "description5":"Déploiement en environnement cloud sécurisé avec mise en production maîtrisée, suivi continu et optimisation du produit.",
+     "title1p2":"Vision et engagement",
+    "description1p2":"Nous adoptons une méthode itérative axée sur la transparence et l'excellence technique. Ce cadre assure une collaboration fluide et une valeur métier immédiate.",
+    "title6":"Équipe engagée",
+    "title7":"Sprints & itérations",
+    "title8":"Qualité & sécurité",
+    "title9":"Impact mesurable"
+  }
+  ,"contact":{
+    "titleCtc":"Une question, un projet, une idée ?",
+    "pCtc":" Veuillez renseigner les informations ci-dessous afin d'être mis en relation avec le bon interlocuteur.",
+    "lastname":"Nom*",
+    "firstname":"Prénom*",
+    "email":"E-mail*",
+    "number":"Numéro de téléphone",
+    "enterprise":"Entreprise*",
+    "country":"Pays/ région*",
+    "message":"Message*",
+    "checkbox":"Je comprends que mes données personnelles seront traitées par O'CODE aux fins de répondre à la présente demande.",
+    "beforesubmit":"Envoi ...",
+    "submit":"Envoyer"
+
+  }
+  ,"footer":{
+    "telephone":"Téléphone",
+    "email":"Email",
+    "address":"Adresse",
+    "addressDesc":"128, Rue El Araar ETG 2 Bureau 6, Casablanca, MOROCCO",
+
+    "desc":"Expertise technologique, performance durable et maîtrise des infrastructures numériques.",
+    "pfoot1":"NAVIGATION",
+    "pfoot2":"RESTEZ CONNECTÉS",
+    "foot":"2026 © Copyright O'CODE - Tous droits réservés."
+  },
+  "about":{
+    "about":"À propos de nous",
+    "pAbout":"  O'CODE accompagne les organisations dans la structuration, la sécurisation et l’optimisation de leurs infrastructures numériques. Notre approche repose sur une vision stratégique, une maîtrise technologique et un accompagnement adapté aux enjeux de transformation et de performance des entreprises.",
+    "li1":"Conseil stratégique et transformation numérique",
+    "li2":"Architecture, sécurité et optimisation des infrastructures",
+    "li3":"Accompagnement, expertise et pilotage des environnements IT"
+  }
+
+}

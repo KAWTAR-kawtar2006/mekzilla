@@ -1,0 +1,110 @@
+{
+  "navbar": {
+    "about": "About us",
+    "services": "Our expertise",
+    "sectors": "Business Sectors",
+    "methodology": "Methodology",
+    "contact": "Contact us"
+  },
+  "hero":{
+    "title": "Complex IT,", 
+    "suiteTitle":" finally mastered.",
+    "description": "Reliable, secure, and scalable solutions.",
+    "cta": "Talk to an expert",
+    "cta2": "Discover our approach"
+
+}
+,
+
+"services":{
+    "title1":"Systems Architecture",
+    "description1":"We design robust and scalable architectures tailored to your business needs to guarantee the performance, stability, and continuous evolution of your digital systems.",
+    "title2":"Cloud & Scalability",
+    "description2":"We implement modern, secure, and scalable cloud infrastructures to ensure performance, availability, and adaptation to your business growth.",
+    "title3":"Custom Digital Products",
+    "description3":"We develop custom, high-performance, and user-centric web and mobile applications to transform your ideas into concrete digital products.",
+    "h1":"Business Sectors",
+    "p":"We offer you cross-functional expertise to meet your digital ambitions. From custom application design to managing your digital projects, each solution is designed to maximize your performance, agility, and business innovation."
+  },
+
+"secteurs":{
+    "title1":"Financial Services",
+    "description1":"We digitize your banking services through secure and intuitive platforms to efficiently optimize your asset management and customer relationships.",
+    "title2":"Insurance",
+    "description2":"We modernize your customer journeys with agile solutions, simplifying contract management and seamlessly automating the processing of insured claims.",
+    "title3":"Public Sector",
+    "description3":"We help government agencies digitize their services to improve the efficiency of citizen processes and optimize the management of local public resources.",
+    "title4":"Healthcare & Life Sciences",
+    "description4":"We create healthcare applications that facilitate care coordination, secure patient data management, and the optimization of connected healthcare pathways.",
+    "title5":"Retail",
+    "description5":"We boost your e-commerce with innovative, user-centric interfaces to increase customer engagement and maximize your sales by line.",
+    "title6":"Hospitality & Travel",
+    "description6":"We design tailor-made digital tools to streamline the traveler experience, from online booking to the operational management of your establishments.",
+    "title7":"Automotive",
+    "description7":"We digitize your technical and commercial processes with robust solutions for after-sales support, inventory management, and customer relations.",
+    "title8":"Manufacturing",
+    "description8":"We design industrial management tools to optimize your production processes, logistics tracking, and the overall productivity of your factory.",
+    "title9":"Energy & Utilities",
+    "description9":"We support your digital transformation through intelligent platforms, enabling precise monitoring of your consumption and the sustainable optimization of your infrastructure."
+  },
+"approach":{
+    "title1p1":"Working Methodology",
+    "title2p1":"Our Agile Approach",
+    "description1p1":"A proven methodology for delivering your Web/Mobile application, system architecture, and cloud projects with rigor, transparency, and continuous iteration.",
+    "title1":"Ideation & Scoping",
+    "description1":"Analysis of needs and constraints to define a clear vision, a prioritized backlog, and a validated roadmap.",
+    "title2":"Design & Architecture",
+    "description2":"Design of a robust, secure, and scalable system and cloud architecture with appropriate technological choices.",
+    "title3":"Iterative Development",
+    "description3":"Development in short sprints with regular deliveries, incorporating your feedback to continuously improve the product.",
+    "title4":"Testing & Validation",
+    "description4":"Feature testing to guarantee quality, security, and performance, with validations ensuring reliable deployment.",
+    "title5":"Deployment & monitoring",
+    "description5":"Secure cloud deployment with controlled production rollout, continuous monitoring, and product optimization.",
+    "title1p2":"Vision and Commitment",
+    "description1p2":"We adopt an iterative method focused on transparency and technical excellence. This framework ensures seamless collaboration and immediate business value.",
+    "title6":"Committed Team",
+    "title7":"Sprints & Iterations",
+    "title8":"Quality & Security",
+    "title9":"Measurable Impact"
+},
+  "contact":{
+    "titleCtc":"A question, a project, an idea?",
+    "pCtc":"Please fill in the information below in order to be put in touch with the right person.",
+    "lastname":"Name*",
+    "firstname":"First name*",
+    "email":"E-mail*",
+    "number":"Phone number",
+    "enterprise":"Enterprise*",
+    "country":"Country/region*",
+    "message":"Message*",
+    "checkbox": "I understand that my personal data will be processed by O'CODE for the purpose of responding to this request.",
+    "beforesubmit":"Sending ...",
+    "submit":"Send"
+  },
+ 
+"footer":{
+"telephone":"Telephone",
+"email":"Email",
+"address":"Address",
+"addressDesc":"128, Rue El Araar ETG 2 Bureau 6, Casablanca, MOROCCO",
+
+"desc":"Technological expertise, sustainable performance and mastery of digital infrastructures.",
+"pfoot1":"NAVIGATION",
+
+"pfoot2":"STAY CONNECTED",
+"foot":"2026 © Copyright O'CODE - All rights reserved."
+  }
+  ,"about":{
+"about":"About us",
+"pAbout":" O'CODE supports organizations in structuring, securing, and optimizing their digital infrastructures. Our approach is based on a strategic vision, technological expertise, and support tailored to the transformation and performance challenges of businesses.",
+
+"li1":"Strategic Consulting and Digital Transformation",
+
+"li2":"Architecture, Security, and Infrastructure Optimization",
+
+"li3":"Support, Expertise, and Management of IT Environments"
+
+}
+}
+
