@@ -34,7 +34,7 @@ export default function Navbar() {
 
   return (
     <div
-      className={`navbar mx-auto sticky top-0 z-50 transition-all duration-500 ${
+      className={`navbar bg-white mx-auto sticky top-0 z-50 transition-all duration-500 ${
         scrolled
           ? "bg-black"
           : "bg-black"
@@ -67,25 +67,14 @@ export default function Navbar() {
                     : "opacity-100 translate-y-0 scale-100 relative"
                 }`}
               >
-                <span className="o">
-                  <Image src="/OCODElogo/SVG/1-O'.svg" alt="O" width={30} height={30} />
+                <span className="">
+                  <Image src="" alt="" width={30} height={30} />
+                </span>
+                <span className="text-black font-bold text-3xl ml-2">
+                  mekzilla
                 </span>
 
-                <span className="letter letter-c">
-                  <Image src="/OCODElogo/SVG/2-C.svg" alt="C" width={18} height={18} />
-                </span>
-
-                <span className="letter letter-o">
-                  <Image src="/OCODElogo/SVG/3-O.svg" alt="O" width={22} height={22} />
-                </span>
-
-                <span className="letter letter-d">
-                  <Image src="/OCODElogo/SVG/4-D.svg" alt="D" width={21} height={21} />
-                </span>
-
-                <span className="letter letter-e">
-                  <Image src="/OCODElogo/SVG/5-E.svg" alt="E" width={15} height={15} />
-                </span>
+                
               </div>
 
               {/*  LOGO IMAGE (APRÈS SCROLL) */}
@@ -111,27 +100,27 @@ export default function Navbar() {
         </Link>
 
         {/* ================= LINKS ================= */}
-        <div className="text-m hidden min-[769px]:flex gap-6 text-white mr-auto ml-8 mt-1">
-          <Link href="/#services" className="hover:text-[#DADADA]">
+        <div className="text-m hidden min-[769px]:flex min-[769px]:pl-25  gap-6 text-black mr-auto ml-8 mt-1">
+          <Link href="/#services" className="">
             {t("navbar.services")}
           </Link>
-          <Link href="/#secteurs" className="hover:text-[#DADADA]">
+          <Link href="/#secteurs" className="">
             {t("navbar.sectors")}
           </Link>
-          <Link href="/#methodologie" className="hover:text-[#DADADA]">
+          <Link href="/#methodologie" className="">
             {t("navbar.methodology")}
           </Link>
-          <Link href="/#about" className="hover:text-[#DADADA]">
+          <Link href="/#about" className="">
             {t("navbar.about")}
           </Link>
         </div>
 
         {/* ================= ACTIONS ================= */}
-        <div className="text-m flex items-center pl-10 gap-4 text-white mt-1">
+        <div className="text-m flex items-center pl-10 gap-4 text-black mt-1">
 
           <Link
             href="/#contact"
-            className="text-sm hidden min-[769px]:inline-flex hover:text-[#DADADA]"
+            className="text-sm hidden min-[769px]:inline-flex hover:text-[#DADADA] border border-black border-2 p-3 "
           >
             {t("navbar.contact")}
           </Link>
