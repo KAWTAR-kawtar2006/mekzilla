@@ -7,11 +7,14 @@
     "contact": "Contactez-nous"
   },
   "hero":{
-    "title": "L'IT complexe,",
-    "suiteTitle":"enfin maîtrisée.",
-    "description": "Solutions fiables, sécurisées et évolutives.",
-    "cta": "Parler à un expert",
-    "cta2": "Découvrir notre approche"
+    "title": "Advanced Performance Hosting",
+    "title2": "Solutions fiables,",
+    "suiteTitle":"sécurisées et évolutives.",
+    "cta": "commencer hosting",
+    "li1":"Same Price on renewal",
+    "li2":"Free Backups & SSL Certificate",
+    "li3":"Managed WooCommerce Maintenance",
+    "li4":"24/7 Customer Support"
   },
   "services":{
     "title1":"Architecture des Systèmes",
