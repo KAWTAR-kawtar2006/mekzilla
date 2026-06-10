@@ -86,25 +86,11 @@ export default function Services() {
   return (
     <div>
       
-    <section id="services" className="scroll-mt-15 px-6 py-20 bg-black">
-      <div className="w-full my-8 overflow-hidden  pb-20">
-      <div
-        className="
-          h-[1px]
-          w-full
-          bg-gradient-to-r
-          from-transparent
-          via-[#545c2f]
-          to-transparent
-          animate-[shine_3s_linear_infinite]
-          transition-all
-          duration-300
-        "
-      />
-    </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
+    <section id="services" className="scroll-mt-15 px-6 py-20 bg-[#e2eeed]">
+      
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-5">
         {/* CARD 1 */}
-        <div className="border-2 border-[#545C2F5C] rounded-lg  p-5 flex gap-4">
+        <div className="border-1 border-[#36aba7] bg-white rounded-lg  p-5 grid gap-4">
 
           {/* IMAGE */}
           <div>
@@ -119,10 +105,10 @@ export default function Services() {
 
           {/* TEXT */}
           <div>
-            <h3 className="text-white font-semibold mb-3 mb-2 ml-2">
+            <h3 className="text-black font-semibold mb-3 mb-2 ml-2">
                {t("services.title1")}
             </h3>
-            <p className="text-[#8A8A8A] text-sm leading-relaxed ml-2">
+            <p className="text-black text-sm leading-relaxed ml-2">
               {t("services.description1")}
             </p>
           </div>
@@ -130,7 +116,7 @@ export default function Services() {
         </div>
 
         {/* CARD 2 */}
-        <div className="border-2 border-[#545C2F5C] rounded-lg p-5 flex gap-4">
+        <div className="border-1 border-[#36aba7] bg-white rounded-lg p-5 grid gap-4">
 
           <div>
             <Image 
@@ -143,18 +129,41 @@ export default function Services() {
           </div>
 
           <div>
-            <h3 className="text-white font-semibold mb-3 ml-2">
+            <h3 className="text-black font-semibold mb-3 ml-2">
               {t("services.title2")}
             </h3>
-            <p className="text-[#8A8A8A] text-sm leading-relaxed ml-2">
+            <p className="text-black text-sm leading-relaxed ml-2">
+              {t("services.description2")}
+            </p>
+          </div>
+
+        </div>
+        {/* CARD 3 */}
+        <div className="border-1 border-[#36aba7] bg-white rounded-lg p-5 grid gap-4">
+
+          <div>
+            <Image 
+              src="/services/cloud-server.svg"
+              width={150}
+              height={150}
+              alt="cloud"
+              className="opacity-80"
+            />
+          </div>
+
+          <div>
+            <h3 className="text-black font-semibold mb-3 ml-2">
+              {t("services.title2")}
+            </h3>
+            <p className="text-black text-sm leading-relaxed ml-2">
               {t("services.description2")}
             </p>
           </div>
 
         </div>
 
-        {/* CARD 3 */}
-        <div className="border-2 border-[#545C2F5C] rounded-lg p-5 flex gap-4">
+        {/* CARD 4 */}
+        <div className="border-1 border-[#36aba7] bg-white rounded-lg p-5 grid gap-4">
 
           <div>
             <Image 
@@ -167,10 +176,10 @@ export default function Services() {
           </div>
 
           <div>
-            <h3 className="text-white font-semibold mb-3 ml-2">
+            <h3 className="text-black font-semibold mb-3 ml-2">
               {t("services.title3")}
             </h3>
-            <p className="text-[#8A8A8A] text-sm leading-relaxed ml-2">
+            <p className="text-black text-sm leading-relaxed ml-2">
               {t("services.description3")}
             </p>
           </div>
