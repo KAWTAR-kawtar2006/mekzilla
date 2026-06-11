@@ -20,48 +20,60 @@ export default function Hero(){
     setMobileOpen(false);
   };
   return(
-    <div className="hero bg-[#000000] px-4 pt-15 text-center  sm:pt-20 lg:pt-20">
-      <div className="hero-title mx-auto mb-4 max-w-6xl">
-        <h1 className="mb-3 text-[40px] font-bold leading-none text-white sm:mb-5 sm:text-[50px] lg:text-[73px]">
+    <div className="hero bg-[#00466b] flex flex-row px-4 pt-15  pl-25 sm:pt-20 lg:pt-20">
+    <div className="hero  ">
+      <div className="hero-title  mb-4 max-w-6xl">
+         <h1 className="mb-3 text-[20px] font-medium uppercase leading-none text-[#A3D6D4] sm:mb-5 sm:text-[20px] lg:text-[20px]">
           {t("hero.title")}
         </h1>
+        <h1 className="mb-3 text-[23px] font-semibold leading-none text-white sm:mb-5 sm:text-[50px] lg:text-[43px]">
+          {t("hero.title2")}
+        </h1>
 
-        <h1 className="mb-6 text-[40px] font-bold leading-none text-white sm:mb-8 sm:text-[50px] lg:text-[73px]">
+        <h1 className="mb-6 text-[23px] font-semibold leading-none text-white sm:mb-5 sm:text-[50px] lg:text-[43px]">
           {t("hero.suiteTitle")}
         </h1>
-        <p className="mx-auto max-w-3xl pb-2 text-base font-normal leading-relaxed text-[#d2d2d2] sm:text-[17px]">
-          {t("hero.description")}
-        </p>
+
+        <ul>
+          <li className="mb-3 text-[14px]  leading-none text-white sm:mb-5 sm:text-[20px] lg:text-[15px]">
+            {t("hero.li1")}
+          </li>
+          <li className="mb-3 text-[14px]  leading-none text-white sm:mb-5 sm:text-[20px] lg:text-[15px]">
+            {t("hero.li2")}
+          </li><li className="mb-3 text-[14px]  leading-none text-white sm:mb-5 sm:text-[20px] lg:text-[15px]">
+            {t("hero.li3")}
+          </li><li className="mb-3 text-[14px]  leading-none text-white sm:mb-5 sm:text-[20px] lg:text-[15px]">
+            {t("hero.li4")}
+          </li>
+        </ul>
+        
         </div>
-    <div className="mt-7 flex flex-col items-stretch justify-center gap-4 pb-5 text-[14px] sm:flex-row sm:items-center sm:gap-5 sm:pb-5 lg:pb-10">
+    <div className="mt-7 flex flex-col  gap-4 pb-5 text-[14px] sm:flex-row sm:items-center sm:gap-5 sm:pb-5 lg:pb-10">
 
       {/* Bouton principal */}
-      <Link href="/#contact" className="flex w-full items-center justify-center gap-3 rounded-xl px-7 py-4 text-white sm:w-auto
-      bg-gradient-to-b from-[#555c2f] to-[#1B2000] 
-      hover:from-[#545C2F] hover:to-[#545C2F]
+      <Link href="/#contact" className="flex w-full font-semibold uppercase gap-3 rounded-xl px-7 py-4 text-white sm:w-auto
+      bg-[#38ACA8]  
+      hover:bg-[#ffff] hover:text-[#38ACA8]
       sm:pl-10 sm:pr-10 transition
-      border border-[#545C2F]
+      border border-[#38ACA8] 
+      hover:border-[#ffffff]
       cursor-pointer">
         <span>{t("hero.cta")}</span>
-        <Image
+      </Link>
+
+
+    </div>
+
+    </div>
+    <div className="pl-50">
+      <Image
           src="/fleche.svg"
           alt="flèche"
           width={20}
           height={10}
           className=""
         />
-      </Link>
-
-      {/* Bouton secondaire */}
-      <Link href="/#services" className="w-full rounded-xl px-7 py-4 text-white sm:w-auto
-      border border-[#545C2F]
-      transition cursor-pointer
-      sm:pl-10 sm:pr-10 transition">
-        {t("hero.cta2")}
-      </Link>
-
     </div>
-
     </div>
   )
 }

@@ -120,7 +120,7 @@ export default function Navbar() {
 
           <Link
             href="/#contact"
-            className="text-sm hidden min-[769px]:inline-flex hover:text-[#DADADA] border border-black border-2 p-3 "
+            className="text-sm hidden min-[769px]:inline-flex  border border-[#3a5b6f] border-2 p-3 "
           >
             {t("navbar.contact")}
           </Link>
